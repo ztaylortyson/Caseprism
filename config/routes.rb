@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   get 'displays', to: 'displays#show'
+  get 'newcasefilings', to: 'case_search#ncfs'
 end
 
 
