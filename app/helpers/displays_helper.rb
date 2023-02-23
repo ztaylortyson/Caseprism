@@ -14,8 +14,9 @@ module DisplaysHelper
 		open("state_bar_profile_page.txt", 'a+') do |i|
 				i << @page
 		end
-
-
 	end
+
+	
+
 
 end
