@@ -1,0 +1,21 @@
+<h1>Jcforms#index</h1>
+<p>Find me in app/views/jcforms/index.html.erb</p>
+<hr>
+
+<table>
+	<tr>
+		<th>Filename</th>
+	</tr>
+	<tr>
+		<% @records.each do |i| %>
+			<td><%= link_to "#{ i }", "#" %></td>
+		<% end %>
+	</tr>
+</table>
+
+<hr>
+
+<%= link_to "PDF", jcf_path %> 
+
+
+

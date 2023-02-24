@@ -9,6 +9,8 @@ gem "selenium-webdriver"
 gem "webdrivers"
 gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 gem 'devise'
+gem 'pdf-forms', '~> 1.4'
+gem 'pdf-reader', '~> 2.11'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
