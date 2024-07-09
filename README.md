@@ -22,15 +22,3 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
-
-git remote add origin git@github.com:ztaylortyson/Caseprism.git
-git branch -M main
-git push -u origin main
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:ztaylortyson/Caseprism.git
-git push -u origin main
