@@ -1,2 +1,12 @@
-<h3>Law Office of Zachary T. Tyson</h3>
-<%= link_to "Home", "#" %>
+<% if user_signed_in? %>
+
+<%= button_to "Log Out", destroy_user_session_path, method: :delete %>
+
+<h3><%= current_user.email %></h3>
+	<p> 
+		<%= link_to "Home", "#" %>
+		<%= link_to "MsWord", msword_path %>
+	</p>
+
+<% end %>
+

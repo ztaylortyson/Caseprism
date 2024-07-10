@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+
+.notice {
+    color: green;
+}
+
+.alert {
+    color: red;
+}
+
+#mellon {
+    display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}

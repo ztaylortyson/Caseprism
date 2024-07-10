@@ -67,3 +67,7 @@ group :test do
 end
 
 gem "pg", "~> 1.1"
+
+gem "devise", "~> 4.9"
+
+gem "docx", "~> 0.8.0"

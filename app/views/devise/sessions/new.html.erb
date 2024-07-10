@@ -1,0 +1,50 @@
+
+<div class="center">
+  <%= image_tag('logo.png')%>
+</div>
+
+<div id="mellon">
+
+    <h2>Log in</h2>
+
+    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <div class="field">
+        <%= f.label :email %><br />
+        <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+      </div>
+
+      <div class="field">
+        <%= f.label :password %><br />
+        <%= f.password_field :password, autocomplete: "current-password" %>
+      </div>
+
+      <% if devise_mapping.rememberable? %>
+        <div class="field">
+          <%= f.check_box :remember_me %>
+          <%= f.label :remember_me %>
+        </div>
+      <% end %>
+
+      <div class="actions">
+        <%= f.submit "Log in" %>
+      </div>
+    <% end %>
+
+</div>
+
+<div id="wind">
+  <button onclick="myFunction()">Log in</button>
+</div>
+
+
+<script> 
+  
+    function myFunction() {
+      document.getElementById("mellon").style.display = "block"
+      document.getElementById("wind").style.display = "none"
+    }
+
+  
+</script>
+
+<!--  #render "devise/shared/links" %> -->
