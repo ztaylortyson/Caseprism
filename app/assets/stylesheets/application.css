@@ -27,6 +27,18 @@
     display: none;
 }
 
+#forms-btn {
+    display: block;
+}
+
+#myForm {
+    display: none;
+}
+
+#register-popup {
+    display: none;
+}
+
 .center {
   display: block;
   margin-left: auto;
