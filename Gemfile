@@ -66,7 +66,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "pg", "~> 1.1"
+
 
 gem "devise", "~> 4.9"
 
